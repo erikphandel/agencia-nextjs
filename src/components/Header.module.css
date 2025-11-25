@@ -1,0 +1,35 @@
+.header {
+  text-align: center;
+  font-size: 40;
+  background-color: white;
+  margin-top: 0;
+}
+
+.headerTitle,
+.headerTitle:visited {
+  margin: 0;
+  padding: 50;
+  color: #550fed;
+  text-decoration: none;
+}
+
+.headerNav {
+  background-color: #270570;
+  font-size: 25;
+  padding: 10 0 10 30;
+  display: flex;
+  
+}
+
+.headerLink,
+.headerLink:visited {
+  padding: 5;
+  border-radius: 3px;
+  color: white;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.headerLink:hover {
+  background-color: #550fed;
+}
