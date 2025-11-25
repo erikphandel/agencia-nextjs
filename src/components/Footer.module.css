@@ -1,0 +1,20 @@
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  background-color: #270570;
+  color: white;
+  padding: 10 0 10 30;
+  display: flex;
+  align-items: center;
+}
+
+.footerLogo {
+  padding: 0;
+}
+
+.footerText {
+  padding: 0;
+  font-size: 12px;
+  margin-left: 50px;
+}
